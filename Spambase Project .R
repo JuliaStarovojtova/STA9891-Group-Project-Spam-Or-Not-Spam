@@ -16,7 +16,7 @@ set.seed(1)
 
 ### OPERATIONS WITH DATA ###
 
-SpamBase = read_csv("/Users/nikakondzhariya/Desktop/Sta\ 9891\ Project/Data/spambase_csv.csv", 
+SpamBase = read_csv("/Users/yuliastarovoytova/Desktop/Sta\ 9891\ Project/Data/spambase_csv.csv", 
                         col_names = TRUE)
 SpamBase=as.data.frame(SpamBase)
 str(SpamBase)
